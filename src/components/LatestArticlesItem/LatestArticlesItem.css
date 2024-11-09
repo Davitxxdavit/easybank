@@ -1,0 +1,39 @@
+.articles-item{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    border-radius: 5px;
+    overflow: hidden;
+    color: rgba(180,179,185,255);
+    background-color: rgba(255,255,255,255);
+}
+
+.articles-item img{
+    margin: 0;
+    width: 100%;
+    height: 50%;
+}
+
+.inner-articles-item{
+    padding: 30px 20px;
+}
+
+.articles-item h3{
+    color: rgba(61,61,86,255);
+    cursor: pointer;
+}
+
+.article-title:hover{
+    color: rgba(144,214,193,255);
+    
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .articles-item{
+        width: 70%;
+       
+    }
+}

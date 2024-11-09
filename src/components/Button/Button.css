@@ -1,0 +1,21 @@
+.btn{
+    width: 105px;
+    padding: 15px 40px;
+    background-image: linear-gradient(0.25turn, rgba(49,208,104,255), rgba(43,185,206,255));
+    border-radius: 25px;
+    color: rgba(203,246,234,255);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-image: linear-gradient(0.25turn, rgba(132,225,163,255), rgba(128,212,226,255));
+}
+
+@media only screen and (max-width: 1000px) {
+
+.btn{
+    width: 90px;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+}
+}
