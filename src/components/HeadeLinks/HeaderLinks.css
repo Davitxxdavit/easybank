@@ -1,7 +1,11 @@
 a{
     text-decoration: none;
-   
+   color:  rgba(198,197,201,255);
     
+}
+
+a:hover{
+    color: rgba(94,93,100,255);
 }
 
 ul{
