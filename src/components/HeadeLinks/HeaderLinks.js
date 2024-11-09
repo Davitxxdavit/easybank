@@ -4,11 +4,11 @@ const HeaderLinks = () => {
   return (
     <>
         <ul>
-            <li><a href='#'>Home</a></li>
-            <li><a href='#'>About</a></li>
-            <li><a href='#'>Contact</a></li>
-            <li><a href='#'>Blog</a></li>
-            <li><a href='#'>Careers</a></li>
+            <li><a href='https://github.com/Davitxxdavit'>Home</a></li>
+            <li><a href='https://github.com/Davitxxdavit'>About</a></li>
+            <li><a href='https://github.com/Davitxxdavit'>Contact</a></li>
+            <li><a href='https://github.com/Davitxxdavit'>Blog</a></li>
+            <li><a href='https://github.com/Davitxxdavit'>Careers</a></li>
         </ul>
     </>
   )
