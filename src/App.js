@@ -14,7 +14,7 @@ import latestIMG1 from './assets/image-currency.jpg';
 import latestIMG2 from './assets/image-restaurant.jpg';
 import latestIMG3 from './assets/image-plane.jpg';
 import latestIMG4 from './assets/image-confetti.jpg';
-import footerIMG from './assets/logo.svg';
+
 import facebook from './assets/icon-facebook.svg';
 import instagram from './assets/icon-instagram.svg';
 import twitter from './assets/icon-twitter.svg';
@@ -44,7 +44,7 @@ function App() {
 
       <div className="header">
         <div className='content' >
-            <img className='logo' src={logo} />
+            <img className='logo' src={logo} alt='#' />
             <HeaderLinks />
             <Button />
         </div>
@@ -59,8 +59,8 @@ function App() {
             <Button />
           </div>
           <div className='intro-images' >
-            <img className='intro-img' src={intro} />
-            <img className='intro-mobile-img' src={introPhoneImg} /> 
+            <img className='intro-img' src={intro} alt='#' />
+            <img className='intro-mobile-img' src={introPhoneImg} alt='#' /> 
           </div>
         </div>
       </div>
@@ -149,11 +149,11 @@ function App() {
         </div>
           <div className={on ? 'menu-off' : 'menu-on'} >
             <ul>
-              <li><a>Home</a></li>
-              <li><a>About</a></li>
-              <li><a>Contact</a></li>
-              <li><a>Blog</a></li>
-              <li><a>Careers</a></li>
+              <li><a href='#'>Home</a></li>
+              <li><a href='#'>About</a></li>
+              <li><a href='#'>Contact</a></li>
+              <li><a href='#'>Blog</a></li>
+              <li><a href='#'>Careers</a></li>
             </ul>
           </div>
 
